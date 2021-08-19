@@ -1,0 +1,8 @@
+1° PASSO - PLANEJAMENTO
+No backlog coloca as que vc realmente tem que fazer
+
+1° tarefa- MODELAGEMS 
+-Deve fazer a modelagem fisica, conceitual e lógico
+
+2° tarefa- SCRIPTS DE BANCO DE DADOS
+-Fazer os scripts da estrutura DDL, DML e DQL

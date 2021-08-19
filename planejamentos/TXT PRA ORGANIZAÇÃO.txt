@@ -1,0 +1,93 @@
+--Tipo de Usuario--
+PK idtipoUsuario
+nomeTipoUsuario
+
+
+
+Usuario
+PK idUsuario
+FK idtipoUsuario
+NomeUsuario
+(email
+RG
+CPF
+Endereço                 <-- UsuarioPaciente
+DataNascimento
+Telefone)
+
+(CRM
+email
+Especialidade           <--Medicos
+Clinica
+CNPJ
+RazãoSocial)
+
+
+
+
+
+
+Presença
+PK idPresença
+FK idUsuario
+FK idConsulta
+FK idSituação
+
+
+--Situação
+PK idSituação
+Descricao (Realizada, Agendada e Cancelada)
+
+
+
+--Tipo da consulta--
+PK idTipoConsulta
+TipoDaConsulta (Psiquiatra e etc)
+
+
+
+Counsultas
+PK idConsulta
+FK idTipoConsulta
+FK idLugar
+Descricao
+DataConsulta
+
+
+
+--Lugar--
+PK idLugar
+CNPJ
+nomeFantasia
+endereço
+razãosocial
+HorarioDeFuncionamento
+
+1 adm
+3 med
+7 pacientes
+
+
+
+
+
+
+
+
+Acupuntura
+Anestesiologia
+Angiologia
+Cardiologia
+Cirurgia Cardiovascular
+Cirurgia da Mão
+Cirurgia do Aparelho Digestivo
+Cirurgia Geral
+Cirurgia Pediátrica
+Cirurgia Plástica
+Cirurgia Torácica
+Cirurgia Vascular
+Dermatologia
+Radioterapia
+Urologia
+Pediatria
+Psiquiatria
