@@ -29,7 +29,8 @@ RazãoSocial)
 
 Presença
 PK idPresença
-FK idUsuario
+FK idUsuarioMedico
+FK UsuarioPaciente
 FK idConsulta
 FK idSituação
 

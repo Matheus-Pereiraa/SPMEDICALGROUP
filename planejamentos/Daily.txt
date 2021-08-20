@@ -1,0 +1,13 @@
+--Antes de começar o projeto --1° Dia
+No primeiro dia vou fazer todos as modelagens e tentar começar pelo menos o DDL
+
+--Quando terminou o dia -- 1° Dia
+Consegui fazer o esperado antes de começar o projeto :)
+
+
+
+--Antes de Começar o Projeto --2° Dia
+Vou terminar hoje ainda (DML e DQL), espero,
+
+--Quando terminei o projeto --2° Dia
+Consegui terminar o projeto, GGs :)
