@@ -66,18 +66,3 @@ values(14,9,6,1), (15,7,10, 1),(16,8,9,1),(17,7,7,1), (18,8,8,2), (19,7,11,2)
 
 
 
-Alter table Presença
-add idConsulta tinyint foreign key references Consultas (idConsulta) 
-
-
-alter table Consultas
-alter column Descricao varchar (500)
-
-
-
-
-alter table Consultas
-drop column idUsuarioPaciente
-
-alter table Consultas
-drop idUsuarioMedico

@@ -74,3 +74,23 @@ idTipoConsulta tinyint foreign key references TipoConsulta(idTipoConsulta),
 Descricao varchar (200),
 DataConsulta varchar (11)
 );
+
+
+
+
+
+Alter table Presença
+add idConsulta tinyint foreign key references Consultas (idConsulta) 
+
+
+alter table Consultas
+alter column Descricao varchar (500)
+
+
+
+
+alter table Consultas
+drop column idUsuarioPaciente
+
+alter table Consultas
+drop idUsuarioMedico
